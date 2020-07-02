@@ -14,14 +14,14 @@ Install the virtual environment library:
 sudo apt-get install python3-virtualenv
 Create virtual environment in app directory, replacing 3.6 with the major.minor version numbers of your Python installation:
 
-python3 -m virtualenv venv --python=python3.6
+  python3 -m virtualenv venv --python=python3.6 
 Activate the virtual environment:
 
-source venv/bin/activate
+  source venv/bin/activate  
 Install the dependencies
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 Runserver
 
-python manage.py runserver
+  python manage.py runserver  
