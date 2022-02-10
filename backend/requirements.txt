@@ -1,4 +1,4 @@
-Django==2.2.20
+Django==2.2.27
 graphene-django==2.2.0
 django-graphiql==0.4.4
 django-filter==2.2.0
